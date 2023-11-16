@@ -175,4 +175,14 @@
     .newspaper__item-left-bottom-left {
         margin-bottom: 20px;
     }
+
+    .newspaper__item-left-bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .newspaper__item-hour {
+        margin-left: 0px;
+    }
 }
