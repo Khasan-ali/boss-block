@@ -159,11 +159,23 @@
         flex-direction: column;
     }
 
+    .newspaper__item:not(:last-child) {
+        margin-bottom: 44px;
+    }
+
     .newspaper__images {
         max-width: 800px;
         width: 100%;
         max-height: 500px;
         height: 100%;
+    }
+
+    .newspaper__item-left-hero-heading {
+        white-space: nowrap;
+    }
+
+    .newspaper__item-left-hero-date {
+        margin-left: 25px;
     }
 
     .newspaper__item-left-bottom {
@@ -182,7 +194,15 @@
         align-items: flex-start;
     }
 
+    .newspaper__item-btn {
+        margin-bottom: 10px;
+    }
+
     .newspaper__item-hour {
         margin-left: 0px;
+    }
+
+    .newspaper__item-hour:not(:last-child) {
+        margin-bottom: 10px;
     }
 }
